@@ -1,0 +1,29 @@
+{
+    "name": "alijumaan/fortify-bootstrap",
+    "description": "Bootstrap template for laravel 8 Fortify",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^8.12",
+        "laravel/fortify": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alijumaan\\FortifyBootstrap\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers" : [
+                "Alijumaan\\FortifyBootstrap\\FortifyBootstrapServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Jumaan",
+            "email": "alila3883@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
